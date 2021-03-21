@@ -1,6 +1,6 @@
 ﻿@{
   RootModule = 'PS.Tools.SortLibrary.psm1'
-  ModuleVersion = '1.0.5'
+  ModuleVersion = '1.0.6'
   CompatiblePSEditions = @('Desktop','Core')
   GUID = 'eb890351-6757-40fa-b65a-c0f5ec794576'
   Author = 'Hannes Palmquist'
@@ -45,6 +45,7 @@
   CLRVersion = ''
   ProcessorArchitecture = ''
 }
+
 
 
 
