@@ -1,5 +1,6 @@
-﻿@{
-  RootModule = 'PS.Tools.SortLibrary.psm1'
+﻿
+@{
+  RootModule = 'pstools.sortlibrary.psm1'
   ModuleVersion = '1.0.6'
   CompatiblePSEditions = @('Desktop','Core')
   GUID = 'eb890351-6757-40fa-b65a-c0f5ec794576'
@@ -11,9 +12,9 @@
   FunctionsToExport = @('Sort-UsingQuickSort','Test-SortingAlgorithms')
   FileList = @('.\data\appicon.ico','.\data\banner.ps1','.\docs\pstools.sortlibrary.md','.\include\module.utility.functions.ps1','.\public\Sort-UsingQuickSort.ps1','.\public\Test-SortingAlgorithms.ps1','.\settings\config.json','.\LICENSE.txt','.\pstools.sortlibrary.psd1','.\pstools.sortlibrary.psm1')
   PrivateData = @{
-    ModuleName = 'PS.Tools.SortLibrary'
+    ModuleName = 'pstools.sortlibrary'
     DateCreated = '2021-01-03'
-    LastBuildDate = '2021-03-20'
+    LastBuildDate = '2021-03-21'
     PSData = @{
       Tags = @()
       ProjectUri = ''
@@ -45,7 +46,6 @@
   CLRVersion = ''
   ProcessorArchitecture = ''
 }
-
 
 
 
