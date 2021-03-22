@@ -1,6 +1,6 @@
 ﻿@{
   RootModule = 'pstools.sortlibrary.psm1'
-  ModuleVersion = '1.5'
+  ModuleVersion = '1.6'
   CompatiblePSEditions = @('Desktop','Core')
   GUID = 'eb890351-6757-40fa-b65a-c0f5ec794576'
   Author = 'Hannes Palmquist'
@@ -16,7 +16,7 @@
     LastBuildDate = '2021-03-23'
     PSData = @{
       Tags = @('PSEdition_Desktop','PSEdition_Core','Windows','Linux','MacOS')
-      ProjectUri = 'https://github.com/hanpq/pstools.sortlibrary'
+      ProjectUri = 'https://getps.dev/modules/pstools.sortlibrary/quickstart'
       LicenseUri = 'https://github.com/hanpq/pstools.sortlibrary/blob/main/LICENSE'
       ReleaseNotes = 'https://github.com/hanpq/pstools.sortlibrary/blob/main/changelog.json'
       IsPrerelease = 'False'
