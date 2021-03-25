@@ -1,7 +1,6 @@
-﻿
-@{
+﻿@{
   RootModule = 'pstools.sortlibrary.psm1'
-  ModuleVersion = '1.6.1'
+  ModuleVersion = '1.6.2'
   CompatiblePSEditions = @('Desktop','Core')
   GUID = 'eb890351-6757-40fa-b65a-c0f5ec794576'
   Author = 'Hannes Palmquist'
