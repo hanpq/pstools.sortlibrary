@@ -8,7 +8,8 @@
     .COMPANYNAME Personal
     .COPYRIGHT (c) 2021, Hannes Palmquist, All Rights Reserved
 #>
-function Test-SortingAlgorithms {
+function Test-SortingAlgorithms
+{
     <#
     .DESCRIPTION
         Runs all sorting functions
@@ -23,29 +24,34 @@ function Test-SortingAlgorithms {
     param(
     )
 
-    BEGIN {
-        $List = "7, 56, 67, 72, 16, 48, 5, 10, 85, 77, 54, 62, 18, 22, 42, 88, 64, 15, 9, 81, 65, 82, 58, 71, 92, 63, 31, 30, 50, 39, 4, 23, 51, 79, 1, 52, 93, 59, 66, 80, 86, 43, 37, 34, 49, 20, 60, 41, 40, 91, 74, 89, 44, 68, 33, 55, 19, 17, 83, 45, 21, 8, 87, 35, 90, 57, 78, 47, 98, 27, 96, 46, 95, 24, 61, 32, 26, 14, 11, 25, 38, 28, 75, 97, 84, 99, 12, 2, 36, 73, 29, 76, 53, 6, 94, 70, 13, 100, 3, 69"
-        #$List = "146, 128, 110"
+    BEGIN
+    {
+        
+        $List = 1..1000 | Get-Random -Shuffle
+
         $SortAlgorithms = @(
             'Sort-Object',
             'Sort-UsingQuickSort'
         )
     }
 
-    PROCESS {
-        foreach ($Object in $SortAlgorithms) {
-            $measure = measure-command -expression {
+    PROCESS
+    {
+        foreach ($Object in $SortAlgorithms)
+        {
+            $measure = Measure-Command -Expression {
                 $SortedList = Invoke-Expression -Command ('{0} | {1}' -f $List, $Object )
             }
             [pscustomobject]@{
                 Algorithm = $Object
-                Time = $Measure.TotalMilliseconds
-                Result = $SortedList
+                Time      = $Measure.TotalMilliseconds
+                Result    = $SortedList
             }
         }
     }
 
-    END {
+    END
+    {
             
     }
 
