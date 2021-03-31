@@ -96,6 +96,7 @@ function Sort-UsingQuickSort
         }
 
         quicksort -array $Unsorted -low 0 -high ($Unsorted.count - 1)
+        Write-Verbose ('QuickSort | Array length: {0} | Passes: N/A | Swaps: {2} | Compares: {3}' -f $Unsorted.count, $script:Passes, $script:swaps, $script:compares)
         return $Unsorted
     }
 

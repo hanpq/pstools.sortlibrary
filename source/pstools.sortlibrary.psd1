@@ -1,6 +1,7 @@
-﻿@{
+
+@{
   RootModule = 'pstools.sortlibrary.psm1'
-  ModuleVersion = '1.7.1'
+  ModuleVersion = '1.8'
   CompatiblePSEditions = @('Desktop','Core')
   GUID = 'eb890351-6757-40fa-b65a-c0f5ec794576'
   Author = 'Hannes Palmquist'
@@ -8,8 +9,8 @@
   Copyright = '2021 Hannes Palmquist'
   Description = 'This module contains alternative sort algorithms. The module was created mainly for educational purposes. Work in progress'
   RequiredModules = @()
-  FunctionsToExport = @('Sort-UsingQuickSort','Test-SortingAlgorithms')
-  FileList = @('.\data\appicon.ico','.\data\banner.ps1','.\docs\pstools.sortlibrary.md','.\en-US\pstools.sortlibrary-help.xml','.\en-US\Sort-UsingQuickSort.md','.\en-US\Test-SortingAlgorithms.md','.\include\module.utility.functions.ps1','.\private\.gitignore','.\public\Sort-UsingQuickSort.ps1','.\public\Test-SortingAlgorithms.ps1','.\settings\config.json','.\LICENSE.txt','.\pstools.sortlibrary.psd1','.\pstools.sortlibrary.psm1')
+  FunctionsToExport = @('Sort-UsingBubbleSort','Sort-UsingQuickSort','Test-SortingAlgorithms')
+  FileList = @('.\data\appicon.ico','.\data\banner.ps1','.\docs\pstools.sortlibrary.md','.\en-US\pstools.sortlibrary-help.xml','.\en-US\Sort-UsingQuickSort.md','.\en-US\Test-SortingAlgorithms.md','.\include\module.utility.functions.ps1','.\private\.gitignore','.\public\Sort-UsingBubbleSort.ps1','.\public\Sort-UsingQuickSort.ps1','.\public\Test-SortingAlgorithms.ps1','.\settings\config.json','.\LICENSE.txt','.\pstools.sortlibrary.psd1','.\pstools.sortlibrary.psm1')
   PrivateData = @{
     ModuleName = 'pstools.sortlibrary'
     DateCreated = '2021-01-03'

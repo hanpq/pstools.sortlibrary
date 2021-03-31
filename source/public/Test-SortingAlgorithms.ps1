@@ -27,11 +27,14 @@ function Test-SortingAlgorithms
     BEGIN
     {
         
+        Write-Host 'NOTE: The built in Sort-Object is a compiled cmdlet and will be much faster compared to script based implementations of sorting algoritms. A fair comparison can be made between all other script based algorithms'
+
         $List = 1..1000 | Get-Random -Shuffle
 
         $SortAlgorithms = @(
             'Sort-Object',
-            'Sort-UsingQuickSort'
+            'Sort-UsingQuickSort',
+            'Sort-UsingBubbleSort'
         )
     }
 
@@ -40,7 +43,7 @@ function Test-SortingAlgorithms
         foreach ($Object in $SortAlgorithms)
         {
             $measure = Measure-Command -Expression {
-                $SortedList = Invoke-Expression -Command ('{0} | {1}' -f $List, $Object )
+                $SortedList = Invoke-Expression -Command ('{0} | {1} -Verbose' -f (([string[]]$List) -join ','), $Object )
             }
             [pscustomobject]@{
                 Algorithm = $Object
