@@ -49,6 +49,16 @@
           "Message": "Added Sort-UsingBubbleSort"
         }
       ]
+    },
+    {
+      "Version": "1.10",
+      "Date": "2021-04-01",
+      "Items": [
+        {
+          "Type": "removed",
+          "Message": "Removed signature from all script files due to certificate validation issue"
+        }
+      ]
     }
   ]
 }

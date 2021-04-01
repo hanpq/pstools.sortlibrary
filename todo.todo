@@ -1,0 +1,51 @@
+﻿https://en.wikipedia.org/wiki/Sorting_algorithm
+
+Comparison sorts:
+    ✔ Quicksort @done(21-03-31 23:59)
+    ☐ Merge sort	
+    ☐ In-place merge sort	
+    ☐ Introsort	
+    ☐ Heapsort	
+    ☐ Insertion sort
+    ☐ Block sort	
+    ☐ Quadsort	
+    ☐ Timsort	
+    ☐ Selection sort	
+    ☐ Cubesort	
+    ☐ Shellsort	
+    ✔ Bubble sort @done(21-03-31 23:59)
+    ☐ Tree sort	
+    ☐ Cycle sort	
+    ☐ Library sort	
+    ☐ Patience sorting	
+    ☐ Smoothsort
+    ☐ Strand sort
+    ☐ Tournament sort
+    ☐ Cocktail shaker sort
+    ☐ Comb sort	
+    ☐ Gnome sort
+    ☐ UnShuffle Sort	
+    ☐ Franceschini's method
+    ☐ Odd–even sort
+
+Non-comparion sorts:
+    ☐ Pigeonhole sort	
+    ☐ Bucket sort (uniform keys)	
+    ☐ Bucket sort (integer keys)	
+    ☐ Counting sort	
+    ☐ LSD Radix Sort	
+    ☐ MSD Radix Sort
+    ☐ MSD Radix Sort (in-place)	
+    ☐ Spreadsort
+    ☐ Burstsort
+    ☐ Flashsort
+    ☐ Postman sort
+
+Other:
+    ☐ Bead sort
+    ☐ Simple pancake sort	
+    ☐ Spaghetti (Poll) sort
+    ☐ Sorting network	    
+    ☐ Bitonic sorter
+    ☐ Bogosort
+    ☐ Stooge sort
