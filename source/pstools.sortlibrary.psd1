@@ -14,7 +14,7 @@
     PrivateData            = @{
         ModuleName    = 'pstools.sortlibrary'
         DateCreated   = '2021-01-03'
-        LastBuildDate = '2021-04-01'
+        LastBuildDate = '2021-04-02'
         PSData        = @{
             Tags                       = @('PSEdition_Desktop', 'PSEdition_Core', 'Windows', 'Linux', 'MacOS')
             ProjectUri                 = 'https://getps.dev/modules/pstools.sortlibrary/quickstart'
