@@ -1,8 +1,10 @@
 ﻿<#PSScriptInfo
-    .VERSION 1.0.0
-    .GUID eb890351-6757-40fa-b65a-c0f5ec794576
-    .FILENAME Sort-UsingQuickSort.ps1
-#>
+{
+    "VERSION":  "1.0.0",
+    "GUID":  "eb890351-6757-40fa-b65a-c0f5ec794576",
+    "FILENAME":  "Sort-UsingQuickSort.ps1"
+}
+PSScriptInfo#>
 function Sort-UsingQuickSort
 {
     <#

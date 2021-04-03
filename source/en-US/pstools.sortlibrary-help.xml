@@ -209,10 +209,9 @@
     <command:examples>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
-        <dev:code>Sort-UsingQuickSort
-Description of example</dev:code>
+        <dev:code>Sort-UsingQuickSort</dev:code>
         <dev:remarks>
-          <maml:para></maml:para>
+          <maml:para>Description of example</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -246,10 +245,9 @@ Description of example</dev:code>
     <command:examples>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
-        <dev:code>Test-SortingAlgorithms
-Description of example</dev:code>
+        <dev:code>Test-SortingAlgorithms</dev:code>
         <dev:remarks>
-          <maml:para></maml:para>
+          <maml:para>Description of example</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

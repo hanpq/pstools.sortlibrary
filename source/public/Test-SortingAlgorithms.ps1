@@ -1,13 +1,15 @@
 ﻿<#PSScriptInfo
-    .VERSION 1.0.0
-    .GUID 9260581f-5e20-49b3-9b64-7c1b62eaea9e
-    .FILENAME Test-SortingAlgorithms.ps1
-    .AUTHOR Hannes Palmquist
-    .AUTHOREMAIL hannes.palmquist@outlook.com
-    .CREATEDDATE 2021-01-03
-    .COMPANYNAME Personal
-    .COPYRIGHT (c) 2021, Hannes Palmquist, All Rights Reserved
-#>
+{
+    "VERSION":  "1.0.0",
+    "GUID":  "9260581f-5e20-49b3-9b64-7c1b62eaea9e",
+    "FILENAME":  "Test-SortingAlgorithms.ps1",
+    "AUTHOR":  "Hannes Palmquist",
+    "AUTHOREMAIL":  "hannes.palmquist@outlook.com",
+    "CREATEDDATE":  "2021-01-03",
+    "COMPANYNAME":  "Personal",
+    "COPYRIGHT":  "(c) 2021, Hannes Palmquist, All Rights Reserved"
+}
+PSScriptInfo#>
 function Test-SortingAlgorithms
 {
     <#

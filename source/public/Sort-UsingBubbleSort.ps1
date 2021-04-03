@@ -1,8 +1,10 @@
 ﻿<#PSScriptInfo
-    .VERSION 1.0.0
-    .GUID 4c162cf5-5196-4ea0-8c43-1f4a460245f4
-    .FILENAME Sort-UsingBubbleSort.ps1
-#>
+{
+    "VERSION":  "1.0.0",
+    "GUID":  "4c162cf5-5196-4ea0-8c43-1f4a460245f4",
+    "FILENAME":  "Sort-UsingBubbleSort.ps1"
+}
+PSScriptInfo#>
 function Sort-UsingBubbleSort
 {
     <#

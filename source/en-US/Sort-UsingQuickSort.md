@@ -24,8 +24,9 @@ This function sorts objects using the quick sort algorithm
 ### EXAMPLE 1
 ```
 Sort-UsingQuickSort
-Description of example
 ```
+
+Description of example
 
 ## PARAMETERS
 

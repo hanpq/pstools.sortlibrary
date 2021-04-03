@@ -23,8 +23,9 @@ Runs all sorting functions
 ### EXAMPLE 1
 ```
 Test-SortingAlgorithms
-Description of example
 ```
+
+Description of example
 
 ## PARAMETERS
 
