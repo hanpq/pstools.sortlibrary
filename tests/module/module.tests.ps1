@@ -159,7 +159,7 @@ BeforeAll {
         }
     }
 
-    # Note
+    # Note: Included as helper function to remove dependency of module pstools.psscriptinfo in github workflow
     function Get-PSScriptInfo
     {
         <#
